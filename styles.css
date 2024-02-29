@@ -1,0 +1,43 @@
+body{
+background-color: rgb(31, 31, 31);
+color: white;
+}
+.memory-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px; /* Adjust as needed */
+    background-color: rgb(31, 31, 31);
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px; /* Adjust as needed */
+    color: white;
+}
+
+.moves {
+    font-size: 18px;
+    margin-top: 10px; /* Adjust as needed */
+    color: rgb(35, 35, 35);
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    grid-template-rows: repeat(5, 100px);
+    grid-gap: 10px;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 24px;
+    color: transparent;
+    transition: background-color 0.5s ease;
+}
